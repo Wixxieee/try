@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SplitM - Beranda</title>
+    <link rel="stylesheet" href="beranda.css">
+    <link rel="stylesheet" href="gabungan.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo SplitM">
+        </div>
+        <div class="profile-icon">
+            <img src="profil.png" alt="Profile">
+    </header>
+    
+    <main>
+        <section class="intro">
+            <!-- Placeholder for phone image -->
+            <div class="phone-mockup">
+                <img src="ponsel.png" alt="Phone Mockup">
+            </div>
+            <div class="info">
+                <h1>Split Bill</h1>
+                <div class="button-container">
+                    <button class="guide-button" onclick="showGuide()">Panduan</button>
+                    <button class="button-split-bill" onclick="location.href='form.html'">Mulai Split Bill</button>
+                </div>
+                <p class="intro-text">Masih Bingung Gimana Cara Split Bill Biar Cepat?</p>
+                <p class="sc-text">Dengan menggunakan SplitM, kalian bisa membagi bill dengan mudah. Cukup foto atau masukkan gambar bill kalian, dan secara otomatis bill kalian akan dibagi secara merata.</p>
+            
+                <!-- Modal for Guide -->
+        <div id="guideModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="hideGuide()">&times;</span>
+                <h3>Cara Menggunakan SplitM</h3>
+                <ol>
+                    <li>Unggah foto struk atau masukkan secara manual.</li>
+                    <li>Tentukan pembelian pribadi atau bersama.</li>
+                    <li>Masukkan persentase pajak (PPN) jika diperlukan.</li>
+                    <li>Bagikan hasil pembagian bill dengan teman-teman Anda.</li>
+                </ol>
+            </div>
+        </div>
+            </div>            
+        </section>
+    </main>
+    
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h3>Apa itu SplitM?</h3>
+                <p>SplitM adalah platform yang memudahkan pembagian bill dengan teman secara otomatis hanya dengan mengunggah foto struk.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Bagaimana cara menghitung PPN pada bill?</h3>
+                <p>SplitM akan otomatis menghitung PPN yang ditambahkan pada total pembelian ketika Anda memasukkan persentase PPN.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Apakah bisa membagi pembelian pribadi dan bersama?</h3>
+                <p>Tentu saja! Pada form pembagian bill, Anda bisa memilih item yang dibeli sendiri dan item yang dibeli bersama untuk dibagi rata.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Apakah data saya aman di SplitM?</h3>
+                <p>Ya, kami memastikan bahwa semua data pengguna aman dan tidak akan dibagikan kepada pihak ketiga tanpa izin.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Kontak Kami</h2>
+            <p>Jika Anda memiliki pertanyaan lebih lanjut atau butuh bantuan, jangan ragu untuk menghubungi kami:</p>
+            <ul>
+                <li>Email: support@splitm.com</li>
+                <li>Telepon: +62 895-803-469-331</li>
+                <li>Alamat: Jl. Parangtambung, Makassar, Indonesia</li>
+            </ul>
+            <p>Ikuti kami di media sosial untuk update terbaru:</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

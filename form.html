@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SplitM - Form Pembagian Bill</title>
+    <link rel="stylesheet" href="gabungan.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo SplitM">
+        </div>
+        <div class="profile-icon">
+            <img src="profil.png" alt="Profile">
+        </div>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Ambil Foto Struk atau Unggah File</h2>
+
+            <!-- Area untuk upload atau capture gambar -->
+            <div id="captureArea">
+                <input type="file" id="fileInput" accept="image/*" onchange="displayImagePreview(this)">
+                <button onclick="openCamera()">Ambil Foto</button>
+                <div id="imagePreview" style="margin-top: 10px;"></div>
+                <button onclick="scanImage()">Scan</button>
+            </div>
+
+            <!-- Hasil scan gambar -->
+            <div id="scanResult" style="display: none; margin-top: 20px;">
+                <h3>Detail Gambar:</h3>
+                <p id="scanDetails"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+header {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #4a90e2;
+    color: white;
+}
+
+.logo img {
+    width: 120px; /* Atur ukuran logo sesuai kebutuhan */
+    height: auto;
+    position: relative;
+    bottom : 15px;
+}
+
+.profile-icon img {
+    width: 70px; /* Ukuran baru gambar profil */
+    height: 40px; /* Ukuran baru gambar profil */
+    border-radius: 50%; /* Membuat gambar profil menjadi bulat */
+    position: relative;
+    left : 15px;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f7f9ff;
+}
